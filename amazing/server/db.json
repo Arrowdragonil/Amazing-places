@@ -1,0 +1,24 @@
+{
+    "lugares": [
+      { 
+        "id": 1, 
+        "title": "Geiser Fly", 
+        "img": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665151957/Neoland/Nevada_hbsxib.png",
+        "Place": "Nevada, EEUU",
+        "Description":"Se encuentra en Nevada (EEUU), y es uno del lugares más increíbles del mundo. El geiser no surgió de manera natural, en 1916 en una zona desértica de Nevada un grupo de hombres perforaron el terreno en busca de agua, pero dieron con aguas termales a más de 200 grados centígrados, lo taparon pero años más tarde volvió a surgir y esta vez de forma natural. Lo curioso es que el sedimento de carbonato de calcio ha teñido las rocas otorgándoles unos colores increíbles."
+       },
+       { 
+        "id": 2, 
+        "title": "Hobbiton", 
+        "img": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665151957/Neoland/hobbiton_rhyfpu.jpg",
+        "place": "Nueva Zelanda",
+        "description": "Hobbiton es un lugar ficticio del legendarium del escritor J. R. R. Tolkien, que aparece en sus novelas El hobbit y El Señor de los Anillos. Es uno de los pueblos más antiguos de la Comarca, situado en la Cuaderna del Oeste, al sur de Sobremonte y al noroeste de Delagua. Se extiende a ambos lados del arroyo El Agua y también incluye La Colina. Su nombre del pueblo está compuesto de Hobbit y ton, forma contraída de town, que significa 'pueblo' en inglés en total ciudad de los Hobbits."
+       },
+       { 
+        "id": 3, 
+        "title": "Montañas arcoiris", 
+        "img": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665151957/Neoland/monta%C3%B1as-arcoiris_efivlx.png",
+        "place": "China",
+        "description": "Se encuentran dentro del Parque Geológico de Zhangye Danxia Landform, y son consideradas una maravilla geológica del mundo. La clave de sus colores tan llamativos está en la acumulación de diferentes sedimentos arcillosos a lo largo del tiempo como areniscas y limolitas, las cuales se depositaron antes de que se formaran las montañas del Himalaya."
+       }
+    ]}
