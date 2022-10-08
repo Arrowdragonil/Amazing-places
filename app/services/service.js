@@ -4,7 +4,7 @@
     
         //hara una peticion a traves de un fetch
         try {
-            const data = await fetch(`http://localhost:3000/lugares/${param}`);
+            const data = await fetch(`http://localhost:3000/${param}`);
            //una vez tenemos el const data, hay que transformarlo a Json 
             const dataToJson = await data.json();
             return dataToJson;

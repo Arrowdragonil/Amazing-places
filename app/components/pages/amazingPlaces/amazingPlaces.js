@@ -1,14 +1,17 @@
 //retorna el div con la clase container
 //dontro del div se tiene que poner lo que se quiera pintar
-import {setupPlace} from './app/components/main/place.js'
+import './amazingPlacesStyle.css'
+import {setupPlace} from '../../components/comPlaces/place'
 
 //el templateAmazingPlaces lo tienes que importar al main.js
-export const templateAmazingPlaces = async () => {
-    const templatePlaces = await setupPlace(); 
+/* export const templateAmazingPlaces = async () => {
+    
 return `
-<div class="container">
-   ${templatePlaces[0]}
-</div>`
+<div id="placesContainer" class="container"></div>`
 }
+setupPlace(); */
 
-container.appenchild(printPLaces);
+//esta es una funcion que llama a otra funcion ya que se esta haciendo todo en el componente hijo
+export const initAmazingPlaces = () => {
+    setupPlace();
+}
