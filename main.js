@@ -1,8 +1,10 @@
-import './style.css'
-import './app\components\Main\CardImages.js'
-import javascriptLogo from './javascript.svg'
-import { setupCounter } from './counter.js'
-
+import './style.css';
+import './app/components/main/cardImages.js';
+import { initPLaces } from './app/components/main/cardImages.js';
+import { setupPLaces } from './app/components/main/place.js';
+initPLaces();
+setupPLaces();
+// import { setupCounter } from './counter.js'
 
 container.appenchild(printPLaces)
 
